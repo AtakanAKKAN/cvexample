@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/pexels-roberto-nickson-2559941.jpg);
+    background-size: cover;
+    height: 88vh;
+    width: 100%;
+
+}
+
+.box{
+    width: 450px;
+    background: rgba(214, 225, 168, .5);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.box img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+    cursor: pointer;
+}
+
+.box img:hover{
+    scale: 0.9;
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.box p{
+    text-align: justify;
+}
+
+.box ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.box li a{
+    color: #fff;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+    -webkit-transition: all ease-in-out 250ms;
+    -moz-transition: all ease-in-out 250ms;
+    -ms-transition: all ease-in-out 250ms;
+    -o-transition: all ease-in-out 250ms;
+}
+
+.box a:hover{
+    color: #b9b9b9;
+}
+
+
+
+
+@media only screen and (max-width:768px){
+
+    .box{
+        width: 100%;
+    }
+    
+}
+
+
